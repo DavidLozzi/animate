@@ -1,0 +1,87 @@
+html {
+  font-size: 100%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col12 {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.col-1 {
+  width: 8.3%;
+}
+.col-2 {
+  width: 16.6%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 41.6%;
+}
+.col-5 {
+  width: 41.6%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.3%;
+}
+.col-8 {
+  width: 66.6%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.3%;
+}
+.col-11 {
+  width: 91.6%;
+}
+.col-12 {
+  width: 100%;
+}
+
+p {
+  line-height: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  bottom: 0;
+  transition: bottom 100ms ease-in;
+}
+button:hover {
+  position: relative;
+  bottom: 1px;
+}
+
+code {
+  background-color: #eeeeee;
+  padding: 0 8px;
+  border-radius: 5px;
+}

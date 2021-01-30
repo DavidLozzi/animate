@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lozzi's Native Animation Example</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/transitions.css">
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body onload="load()">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Lozzi's Animation Example</h1>
+        <h2>Using native JavaScript and CSS<sup title="native CSS with Normalize.css">*</sup></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <h2>Transitions</h2>
+        <p>A looser form of animation, transitions generally occur to illustrate something happening, a transition.</p>
+        <p>Transitions run as a state changes, going from one state to another, like height from <code>100px</code> to
+          <code>200px</code>. Generally used when a user is interacting with your site.
+        </p>
+
+      </div>
+      <div class="col-8">
+        <div class="row">
+          <div class="col-6">
+            <div class="trans1">I want to grow</div>
+          </div>
+          <div class="col-6">
+            <p><input type="checkbox" id="trans1-include" />Include Transition</p>
+            <button onclick="grow()">Grow</button>
+            <button onclick="shrink()">Shrink</button>
+            <div></div>
+            <button onclick="show()">Show</button>
+            <button onclick="hide()">Hide</button>
+            <div></div>
+            <button onclick="darken()">Dark</button>
+            <button onclick="lighten()">Light</button>
+            <div></div>
+            <button onclick="colorize()">Color</button>
+            <button onclick="monochrome()">Mono</button>
+            <div></div>
+            <button onclick="turn()">Turn</button>
+            <button onclick="straight()">Straight</button>
+            <div></div>
+            <pre><code>display: inline
+this and that</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

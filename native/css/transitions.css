@@ -1,0 +1,9 @@
+.trans1 {
+  width: 100px;
+  height: 100px;
+  background-color: #333333;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
